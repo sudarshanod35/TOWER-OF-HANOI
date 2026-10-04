@@ -1,0 +1,26 @@
+{
+  "name": "tower-of-hanoi-backend",
+  "version": "1.0.0",
+  "description": "Express backend bridge to SWI-Prolog for Tower of Hanoi AI problem solver",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "keywords": [
+    "prolog",
+    "swi-prolog",
+    "tower-of-hanoi",
+    "artificial-intelligence"
+  ],
+  "author": "AI Problem Solver Team",
+  "license": "ISC"
+}
